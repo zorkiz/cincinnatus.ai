@@ -9,18 +9,18 @@
       margin: 0;
       padding: 0;
       height: 100%;
-      background-color: #0d0f1d; /* pulled from your image */
+      background-color: #0d0f1d; /* dark navy background */
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       font-family: "Courier New", Courier, monospace;
-      color: #ffffff;
     }
 
     .logo {
       max-width: 50%;
       height: auto;
+      filter: brightness(0) invert(1); /* makes logo white if it's black-on-transparent */
     }
 
     .coming-soon {
@@ -28,8 +28,8 @@
       letter-spacing: 0.3em;
       font-size: 1.2rem;
       text-transform: uppercase;
-      opacity: 0.7;
       font-weight: 500;
+      color: #fb4f14; /* Cincinnati Bengals orange */
     }
 
     @media (max-width: 768px) {
