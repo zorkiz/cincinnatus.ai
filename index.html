@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cincinnatus.ai – Coming Soon</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #0d0f1d; /* pulled from your image */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: "Courier New", Courier, monospace;
+      color: #ffffff;
+    }
+
+    .logo {
+      max-width: 50%;
+      height: auto;
+    }
+
+    .coming-soon {
+      margin-top: 30px;
+      letter-spacing: 0.3em;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      opacity: 0.7;
+      font-weight: 500;
+    }
+
+    @media (max-width: 768px) {
+      .logo {
+        max-width: 80%;
+      }
+
+      .coming-soon {
+        font-size: 1rem;
+        letter-spacing: 0.15em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.svg" alt="Cincinnatus.ai Logo" class="logo" />
+  <div class="coming-soon">COMING SOON</div>
+</body>
+</html>
